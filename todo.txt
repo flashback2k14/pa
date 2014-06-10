@@ -1,0 +1,12 @@
+- Arial Font
+- Selbstständigkeitserklärung Schrift zu groß           --> gefixt!?
+- Quellenverzeichnis mit BibLatex
+-- Erwähnung Google URL Shortner zur Linkverkürzung?
+-- Erscheint Quellenverzeichnis im Inhaltsverzeichnis?
+-- Überschrift Webseiten? Internetseiten? NAME!?
+-- besucht am wird nicht immer angezeigt?               --> gefixt
+-- Biblo Sortierung?                                    --> gefixt
+- Seitenzahlen anpassen
+-- römische zahlen inhaltsverzeichnis, etc.             --> erledigt
+-- arabische zahlen ab Seite 1 inhalt                   --> erledigt
+-- Seitenzahlen römisch rechte Seite
