@@ -1,4 +1,4 @@
-- Arial Font                                            --> nicht notwendig!?
+- Arial Font                                            --> nicht notwendig!
 - Selbstständigkeitserklärung Schrift zu groß           --> gefixt!?
 - Quellenverzeichnis mit BibLatex
 -- Erwähnung Google URL Shortner zur Linkverkürzung?
@@ -10,4 +10,4 @@
 -- römische zahlen inhaltsverzeichnis, etc.             --> erledigt
 -- arabische zahlen ab Seite 1 inhalt                   --> erledigt
 -- Seitenzahlen römisch rechte Seite
-- vb.net code listings
+- vb.net code listings                                  --> noch nicht entschieden, ob notwendig!
