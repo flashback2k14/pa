@@ -1,14 +1,14 @@
 - Arial Font                                            --> nicht notwendig!
 - Selbstständigkeitserklärung Schrift zu groß           --> gefixt!?
 - Abbildungsverzeichnis notwendig?
-- Quellenverzeichnis mit BibLatex
--- Erwähnung Google URL Shortner zur Linkverkürzung?
--- Erscheint Quellenverzeichnis im Inhaltsverzeichnis?
+- Quellenverzeichnis mit BibLatex                       --> erledigt
+-- Erwähnung Google URL Shortner zur Linkverkürzung?    --> Nein
+-- Erscheint Quellenverzeichnis im Inhaltsverzeichnis?  --> Nein
 -- Überschrift Webseiten? Internetseiten? NAME!?
 -- besucht am wird nicht immer angezeigt?               --> gefixt
 -- Biblo Sortierung?                                    --> gefixt
-- Seitenzahlen anpassen
+- Seitenzahlen anpassen                                 --> erledigt
 -- römische zahlen inhaltsverzeichnis, etc.             --> erledigt
 -- arabische zahlen ab Seite 1 inhalt                   --> erledigt
--- Seitenzahlen römisch rechte Seite
+-- Seitenzahlen römisch rechte Seite                    --> gefixt
 - vb.net code listings                                  --> wahrscheinlich nicht nötig
