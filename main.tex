@@ -28,6 +28,7 @@
 %--------------------------------------
 \usepackage[rightcaption]{sidecap}
 \usepackage{graphicx}
+\graphicspath{{images/}}
 %--------------------------------------
 % Kopf-& Fußzeile
 %--------------------------------------
@@ -63,7 +64,7 @@
   \fancyfoot[R]{\thepage}
 }
 %--------------------------------------
-% Quellenverzeichnis
+% Quellenverzeichnis 
 %--------------------------------------
 \usepackage[backend=biber,defernumbers,sorting=none,firstinits=true]{biblatex}
 \addbibresource{biblo.bib}
@@ -175,6 +176,7 @@
 %--------------------------------------
 % Zusammenfassung
 %--------------------------------------
+\newpage
 \section{Zusammenfassung}
 \label{sec:Zusammenfassung}
 \input{zusammenfassung}
@@ -193,8 +195,7 @@
 %--------------------------------------
 %\sloppy
 \section{Quellenverzeichnis}
-%\input{quellenverzeichnis}
-\printbibliography[keyword={internet},title={Internetseiten?}]
 \printbibliography[keyword={buch},title={Literatur}]
+\printbibliography[keyword={internet},title={Onlinequellen}]
 
 \end{document}

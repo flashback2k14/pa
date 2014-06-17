@@ -1,10 +1,10 @@
 - Arial Font                                            --> nicht notwendig!
 - Selbstständigkeitserklärung Schrift zu groß           --> gefixt!?
-- Abbildungsverzeichnis notwendig?
+- Abbildungsverzeichnis notwendig?                      --> erledigt
 - Quellenverzeichnis mit BibLatex                       --> erledigt
 -- Erwähnung Google URL Shortner zur Linkverkürzung?    --> Nein
 -- Erscheint Quellenverzeichnis im Inhaltsverzeichnis?  --> Nein
--- Überschrift Webseiten? Internetseiten? NAME!?
+-- Überschrift Webseiten? Internetseiten? NAME!?        --> erledigt
 -- besucht am wird nicht immer angezeigt?               --> gefixt
 -- Biblo Sortierung?                                    --> gefixt
 - Seitenzahlen anpassen                                 --> erledigt
