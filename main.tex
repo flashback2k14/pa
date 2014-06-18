@@ -64,6 +64,10 @@
   \fancyfoot[R]{\thepage}
 }
 %--------------------------------------
+% Fußnote 
+%--------------------------------------
+\usepackage[hang]{footmisc}
+%--------------------------------------
 % Quellenverzeichnis 
 %--------------------------------------
 \usepackage[backend=biber,defernumbers,sorting=none,firstinits=true]{biblatex}
@@ -159,7 +163,6 @@
 %--------------------------------------
 % Konzeption
 %--------------------------------------
-%\newpage
 \section{Konzeption}
 \label{sec:Konzeption}
 \input{konzeption}
@@ -170,6 +173,7 @@
 %--------------------------------------
 % Ergebnisse
 %--------------------------------------
+\newpage
 \subsection{Ergebnisse}
 \label{sec:Ergebnisse}
 \input{ergebnisse}

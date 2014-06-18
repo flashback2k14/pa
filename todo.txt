@@ -12,3 +12,4 @@
 -- arabische zahlen ab Seite 1 inhalt                   --> erledigt
 -- Seitenzahlen römisch rechte Seite                    --> gefixt
 - vb.net code listings                                  --> wahrscheinlich nicht nötig
+- Sage Office Line durch SOL ersetzen o.ä.?

@@ -2,7 +2,7 @@ Das asymmetrische Schlüssel Konzept geht auf das von Whitfield Diffie und Marti
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\textwidth]{ErstellungAbsender2.jpg}
-    \caption[Erstellung eines Dokuments mit digitaler Signatur]{Erstellung eines Dokuments mit digitaler Signatur. \cite{techno3}}
+    \caption[Erstellung eines Dokuments mit digitaler Signatur]{\small{Erstellung eines Dokuments mit digitaler Signatur. \cite{techno3}}}
     \label{fig:2}
 \end{figure}\\
 Der erste Schritt im Signierungsprozess ist das bilden einens Fingerabruck (Hashwert) des Dokuments. Der Fingerabdruck wird mittels Hash-Algorithmus von einem Teil des Dokuments erstellt und ist mit hoher Wahrscheinlichkeit eindeutig. Ein Hash-Algorithmus ist eine mathematische Funktion, die eine beliebig große Menge an Eingabewerten möglichst gleichmäßig auf eine eingeschränkte Ausgabemenge abbildet. \cite{techno2} Eine absolute Eindeutigkeit des Fingerabdrucks kann auf Grund des Zufallsprinzips bei Hash-Algorithmen nicht gewährleistet werden. Anhand des Fingerabdrucks kann nicht auf das Dokument geschlossen werden. Außerdem ist die Erstellung des Dokuments aus dem Fingerabdruck nicht möglich, da der Hashwert von einem beliebigen Teil des Dokuments erstellt wird. Im zweiten Schritt des Prozesses wird der Fingerabdruck mittels privaten Signaturschlüssels zur Sicherstellung der Unversehrtheit des Dokuments verschlüsselt. Im letzten Schritt werden der verschlüsselte Fingerabdruck und das Dokument zu einer Datei vereint. \cite{techno1}   
