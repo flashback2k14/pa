@@ -10,6 +10,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 %--------------------------------------
+% Änderung Schriftart
+% Quelle: http://www.math.tu-dresden.de/~rudl/latex/fonts.pdf
+%--------------------------------------
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+%--------------------------------------
 % German-specific commands
 %--------------------------------------
 \usepackage[ngerman]{babel}
@@ -28,6 +34,7 @@
 %--------------------------------------
 \usepackage[rightcaption]{sidecap}
 \usepackage{graphicx}
+\usepackage{float}
 \graphicspath{{images/}}
 %--------------------------------------
 % Kopf-& Fußzeile
@@ -78,6 +85,10 @@
 % großzügige Formatierungsweise
 %--------------------------------------
 \sloppy
+%--------------------------------------
+% Änderung Schriftart
+%--------------------------------------
+%\changefont{ppl}{m}{n}
 %--------------------------------------
 % Deckblatt
 %--------------------------------------
@@ -194,10 +205,6 @@
 % Quellenverzeichnis
 %--------------------------------------
 \newpage
-%--------------------------------------
-% großzügige Formatierungsweise
-%--------------------------------------
-%\sloppy
 \section{Quellenverzeichnis}
 \printbibliography[keyword={buch},title={Literatur}]
 \printbibliography[keyword={internet},title={Onlinequellen}]
