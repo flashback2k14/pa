@@ -2,14 +2,14 @@ Zu Beginn der Umsetzung wurde die Anbindung der neuzuschaffenden Erweiterung zur
 Software-Architektur. Es besteht aus mehreren Klassen, die zusammenarbeiten und wieder verwendbare Entwürfe darstellen. \cite{framework}} vorgenommen werden. Mit Hilfe von DCM werden die Anpassungen mit der verwendeten Technologie der Sage Office Line auf Basis von Microsoft Access in Verbindung mit dem Microsoft Component Object Model Frameworks (COM) verbunden. Zuerst ist die Einbindung der benötigten DLLs in das Microsoft .NET Entwicklungsprojekt notwendig. Die DLLs umfassen unteranderen die benötigten Komponenten zur Kommunikation zwischen der Erweiterung, der Sage Office Line und dem Signatur-Tablet. Des Weiteren werden die DLLs des Signatur-Tablets zur Erfassung und Prüfung der biometrischen Unterschrift eingebunden. Das Entwicklungsprojekt ist in die Projekte "'FZP.OfficeLine.Abf.Signatur"' und "'FZP.Wacom"' unterteilt. Die Aufteilung in Unterprojekte wurde angesichts der Wiederverwendbarkeit von einzelnen Projektteilen gewählt.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[height=210pt, width=100pt]{paketDiagrammNeu2.png}
+    \includegraphics[height=260pt, width=130pt]{paketDiagrammNeu2.png}
     \caption[Paketdiagramm FZP.Wacom.Erweiterung]{\small{Paketdiagramm FZP.Wacom.Erweiterung}}
 \end{figure}
 \newline
 Das in der nächsten Seite dargestellte Klassendiagramm symbolisiert das Projekt "'FZP.OfficeLine.Abf.Signatur"'. Der rot umrandete Bereich zeigt die Klassen, die die Anbindung an die Sage Office Line regeln. Es existieren zwei Klassen, welche die Erfassungsmaske für die biometrische Unterschrift aus der Sage Office Line heraus öffnen können. Die Erfassungsmaske kann im Standard des Verkaufsbereichs der Sage Office Line sowie im Zusatzmodul FZP Vermietung gestartet werden.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[height=300pt, width=300pt]{steuerelement.PNG}
+    \includegraphics[height=250pt, width=250pt]{steuerelement.PNG}
     \caption[Erfassungsmaske biometrische Unterschrift]{\small{Erfassungsmaske biometrische Unterschrift}}
 \end{figure}
 \newline
